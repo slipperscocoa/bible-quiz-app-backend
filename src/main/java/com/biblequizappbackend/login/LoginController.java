@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/user")
 public class LoginController {
 
-	@Autowired
+	  @Autowired
 	  private MySQLUserDetailsService userService;
 
 	  @PostMapping("/register")
